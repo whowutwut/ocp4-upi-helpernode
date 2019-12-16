@@ -376,6 +376,7 @@
   - name: Downloading filetranspiler source
     git:
       repo: https://github.com/ashcrow/filetranspiler
+      version: "{{ filetranspiler_tag }}"
       dest: /usr/local/src/filetranspiler
 
   - name: Building filetranspiler
