@@ -22,7 +22,10 @@ masters:
 workers:
   - name: "worker0"
     ipaddr: "192.168.7.11"
+    add_to_ocp: True
   - name: "worker1"
     ipaddr: "192.168.7.12"
+    add_to_ocp: True
   - name: "worker2"
     ipaddr: "192.168.7.13"
+    add_to_ocp: True

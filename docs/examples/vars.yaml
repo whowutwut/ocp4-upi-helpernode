@@ -35,9 +35,12 @@ workers:
   - name: "worker0"
     ipaddr: "192.168.7.11"
     macaddr: "52:54:00:f4:26:a1"
+    add_to_ocp: True
   - name: "worker1"
     ipaddr: "192.168.7.12"
     macaddr: "52:54:00:82:90:00"
+    add_to_ocp: True
   - name: "worker2"
     ipaddr: "192.168.7.13"
     macaddr: "52:54:00:8e:10:34"
+    add_to_ocp: True
